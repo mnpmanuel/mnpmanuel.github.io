@@ -510,11 +510,15 @@ body {
 }
 
 footer {
-    padding: 25px 0;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer span.copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -522,9 +526,42 @@ footer span.copyright {
 }
 
 footer ul.quicklinks {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
+    margin-top: 15px;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #C19A6B;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
 }
