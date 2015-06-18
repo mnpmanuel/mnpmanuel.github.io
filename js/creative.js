@@ -42,16 +42,33 @@
         }
     })
 
-    $(window).scroll({
-            start: 0
-        }, 
-        function () {
-        var currentPos = $(window).scrollTop();
-        if (currentPos > 580) {
-            $(".nav").show();
+    //Replace ID below with your box ID
+    var boxToFix = ".nav";
+
+    //Set the number of pixels to scroll before showing the header
+    var scrollPositionToShowHeader = 580;
+      
+    var boxParent = $(boxToFix).parent();
+    var boxClone = $(boxToFix).clone();
+          
+    $(boxClone).appendTo(boxParent).css({"position":"fixed", "left":"0", "top":"0", "width":"100%", "z-index":"899"}).children().remove();
+      
+    showOrHideHeader();
+      
+    function showOrHideHeader() {
+        var currentPositionFromTop = $(window).scrollTop();
+        
+        if (currentPositionFromTop > scrollPositionToShowHeader) {
+            $(boxToFix).show();
+            $(boxClone).show();
         } else {
-            $(".nav").hide();
+            $(boxToFix).hide();
+            $(boxClone).hide();
         }
+    }
+      
+        $(window).scroll(function() {
+        showOrHideHeader();
     });
 
     // Initialize WOW.js Scrolling Animations
