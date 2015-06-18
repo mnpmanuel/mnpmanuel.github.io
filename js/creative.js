@@ -38,7 +38,7 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 580
+            top: 250
         }
     })
 
@@ -46,7 +46,7 @@
     var boxToFix = ".nav";
 
     //Set the number of pixels to scroll before showing the header
-    var scrollPositionToShowHeader = 580;
+    var scrollPositionToShowHeader = 250;
       
     var boxParent = $(boxToFix).parent();
     var boxClone = $(boxToFix).clone();
