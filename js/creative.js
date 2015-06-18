@@ -71,22 +71,6 @@
         showOrHideHeader();
     });
 
-    // The languages that are enabled on your Localize account
-    var availableLanguages = ['en', 'pt'];
-
-    Localize.detectLanguage(function(err, languages) {
-    if (err || !Array.prototype.indexOf || !Array.prototype.forEach) return;
-
-    var newLanguage;
-
-    languages.forEach(function(language) {
-        if (newLanguage) return;
-        if (availableLanguages.indexOf(language) !== -1) newLanguage = language;
-    });
-
-    if (newLanguage) Localize.setLanguage(newLanguage);
-    });
-
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
