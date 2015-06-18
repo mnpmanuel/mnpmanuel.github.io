@@ -38,9 +38,21 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 100
+            top: 580
         }
     })
+
+    $(window).scroll({
+            start: 0
+        }, 
+        function () {
+        var currentPos = $(window).scrollTop();
+        if (currentPos > 580) {
+            $(".nav").show();
+        } else {
+            $(".nav").hide();
+        }
+    });
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
