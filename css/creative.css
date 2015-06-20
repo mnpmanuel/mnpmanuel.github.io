@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather,'Montserrat',Arial,sans-serif;
 }
 
 hr {
@@ -42,14 +42,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Helvetica Neue';
+    font-family: 'Montserrat';
 }
 
 .bg-primary {
@@ -85,7 +85,7 @@ aside {
 .navbar-default {
     /*border-color: rgba(34,34,34,.05);*/
     border-color: transparent;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -94,7 +94,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     font-weight: 700;
     color: #81613E;
 }
@@ -300,7 +300,7 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -458,7 +458,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -526,7 +526,7 @@ footer span.copyright {
     margin-top: auto;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Montserrat",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -538,7 +538,7 @@ footer ul.quicklinks {
     margin-top: 15px;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Montserrat",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -642,7 +642,7 @@ ul.social-buttons li a:active {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -658,7 +658,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 50px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -679,7 +679,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
