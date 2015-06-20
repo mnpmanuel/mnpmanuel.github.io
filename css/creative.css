@@ -574,7 +574,6 @@ ul.social-buttons li a:active {
 .flag {
     width: 16px;
     height: 16px;
-    background:url(flags.png) no-repeat
 }
 
 .flag.flag-pt {background-position: -16px 0}
