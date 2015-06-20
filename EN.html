@@ -153,7 +153,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box">
+                    <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -169,7 +169,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box">
+                    <a href="#portfolioModal2" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -185,7 +185,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box">
+                    <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -363,6 +363,90 @@
             </div>
         </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Mosfet Simples</h2>
+                            <p class="item-intro text-muted">Este mosfet foi desenvolvido com o objectivo de trazer uma solução simples a um baixo custo.
+                            </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/1.jpg" alt="">
+                            <p align="justify">Esta peça previne o arco eléctrico que se passa nos contactos do gatilho das AEGs, quando o mesmo é precionado, garantindo que os contactos não se queimem. Mesmo com um baixo custo, devido ao seu design e à utilização de componentes de alta qualidade, é capaz ainda de dar um aumento de performance acima da média. De fácil instalação, já foi duramente testado em várias réplicas com resultados bastante positivos.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar Projecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mosfet com Active Braking</h2>
+                            <p class="item-intro text-muted">Uma opção desenvolvida para ser duradoura sem descurar a performance.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/2.jpg" alt="">
+                            <p align="justify">Para além de prevenir a queima dos contactos do gatilho, este mosfet ainda tem Active Braking.
+                            O Active Braking é uma funcionalidade que faz com que a AEG pare sempre no mesmo sítio e que faça sempre o ciclo correcto.Assim as peças <i>gearbox</i> da réplica sofrem menos <i>stress</i> permitindo uma utilização mais fiável.
+                            Este mosfet foi ainda desenhado para minimizar o desgaste provocado ao motor e para evitar sobreaquecimento mantendo um nível de performance excelente.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar Projecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Mosfet PTW</h2>
+                            <p class="item-intro text-muted">The mosfet upgrade for your TW.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/3.jpg" alt="">
+                            <p align="justify">Com um design novo e inovador, este mosfet aumenta o desempenho da tua réplica sem descurar a fiabilidade.
+                            Desenhado para continuar a trabalhar sem problemas quando os outros queimam sem prejudicar os outros componentes. Este mosfet não é uma peça de reparação mas sim um verdadeiro upgrade, possibilita ainda o transporte da bateria dentro do <i>buffer-tube</i>. Compatível com réplicas da marca <i>Systema</i>, <i>Celcius</i> e <i>G&D</i> (novas gerações). <b>Protótipo funcional em fase de testes.</b></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar Projecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
