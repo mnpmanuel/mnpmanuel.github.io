@@ -523,7 +523,8 @@ footer span.copyright {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-bottom: 0;
+    margin-top: 15px;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Montserrat",Helvetica,Arial,sans-serif;
@@ -542,16 +543,19 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-ul.social-buttons {
+footer ul.social-buttons {
     margin-bottom: 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    display: inline-block;
+    float: none;
 }
 
-ul.social-buttons li a {
+footer ul.social-buttons li a {
     display: block;
+    float: none;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -565,19 +569,27 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+footer ul.social-buttons li a:hover,
+footer ul.social-buttons li a:focus,
+footer ul.social-buttons li a:active {
     background-color: #fed136;
 }
 
 .flag {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 
-.flag.flag-pt {background-position: -22px 0}
-.flag.flag-gb {background-position: 0 -22px}
+.flag.flag-pt {background-position: -20px 0}
+.flag.flag-gb {background-position: 0 -20px}
+
+.flagB {
+    width: 40px;
+    height: 40px;
+}
+
+.flagB.flag-pt {background-position: -40px 0}
+.flagB.flag-gb {background-position: 0 -40px}
 
 #portfolio .portfolio-item {
     right: 0;
