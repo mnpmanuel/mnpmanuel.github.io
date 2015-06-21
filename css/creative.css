@@ -572,12 +572,12 @@ ul.social-buttons li a:active {
 }
 
 .flag {
-    width: 16px;
-    height: 16px;
+    width: 22px;
+    height: 22px;
 }
 
-.flag.flag-pt {background-position: -16px 0}
-.flag.flag-gb {background-position: 0 -16px}
+.flag.flag-pt {background-position: -22px 0}
+.flag.flag-gb {background-position: 0 -22px}
 
 #portfolio .portfolio-item {
     right: 0;

@@ -44,6 +44,7 @@
 
     //Replace ID below with your box ID
     var boxToFix = ".nav";
+    var boxToFix2= ".navFlag";
 
     //Set the number of pixels to scroll before showing the header
     var scrollPositionToShowHeader = 250;
@@ -60,9 +61,11 @@
         
         if (currentPositionFromTop > scrollPositionToShowHeader) {
             $(boxToFix).show();
+            $(boxToFix2).hide();
             $(boxClone).show();
         } else {
             $(boxToFix).hide();
+            $(boxToFix2).show();
             $(boxClone).hide();
         }
     }
