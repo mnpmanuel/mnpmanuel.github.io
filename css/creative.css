@@ -530,6 +530,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Montserrat",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    font-size: 75%;
 }
 
 footer ul.quicklinks {
