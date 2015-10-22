@@ -455,6 +455,15 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.btn-terms {
+    border-color: #c19a6b;
+    color: #fff;
+    background-color: #c19a6b;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
 .btn {
     border: 0;
     border-radius: 300px;
@@ -821,6 +830,10 @@ img::-moz-selection {
 
 .banner p {
     margin-top: 15px;
+}
+
+.banner a {
+    color:#c19a6b;
 }
 
 @media(max-width:1199px) {
