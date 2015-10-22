@@ -798,7 +798,7 @@ img::-moz-selection {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/header2.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -817,6 +817,10 @@ img::-moz-selection {
     margin: auto;
     margin-top: 0;
     padding: 50px;
+}
+
+.banner p {
+    margin-top: 15px;
 }
 
 @media(max-width:1199px) {
