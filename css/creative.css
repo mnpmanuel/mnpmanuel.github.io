@@ -206,7 +206,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 header .header-content .header-content-inner hr {
@@ -773,9 +773,15 @@ img::-moz-selection {
     background: 0 0;
 }
 
+.topnav {
+    font-size: 14px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    /*padding-top: 50px;*/ /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
     background: url(../img/header2.jpg) no-repeat center center;
@@ -784,7 +790,7 @@ img::-moz-selection {
 
 .intro-message {
     position: relative;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-bottom: 10%;
 }
 
