@@ -45,4 +45,62 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(38.736946, -9.142685),
+          zoom: 9,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var combateVirtualCustom = {lat: 38.7742958, lng: -9.1575083};
+        var powerBB = {lat: 38.5244000, lng: -8.8882000};
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+        var contentStringCVC = '<div id="content">'+
+                            '<div id="siteNotice">'+
+                            '</div>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/combatevirtualcustomairsoft" target="blank">Combate Virtual Custom</a></h5>'+
+                            '</div>';
+
+        var infowindowCVC = new google.maps.InfoWindow({
+            content: contentStringCVC
+        });
+
+        var combateVirtualCustom = new google.maps.Marker({
+            position: combateVirtualCustom,
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Combate Virtual Custom'
+        });
+
+        combateVirtualCustom.addListener('click', function() {
+            infowindowCVC.open(map, combateVirtualCustom);
+        });
+
+        var contentStringPBB = '<div id="content">'+
+                            '<div id="siteNotice">'+
+                            '</div>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/POWER-BB-1400090706869972/" target="blank">Power BB - Metralha</a></h5>'+
+                            '</div>';
+
+        var infowindowPBB = new google.maps.InfoWindow({
+            content: contentStringPBB
+        });
+
+        var powerBB = new google.maps.Marker({
+            position: powerBB,
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Power BB - Metralha'
+        });
+
+        powerBB.addListener('click', function() {
+            infowindowPBB.open(map, powerBB);
+        });
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+
 })(jQuery); // End of use strict
