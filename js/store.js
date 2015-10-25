@@ -62,6 +62,7 @@
                             '<div id="siteNotice">'+
                             '</div>'+
                             '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/combatevirtualcustomairsoft" target="blank">Combate Virtual Custom</a></h5>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.google.pt/maps/place/Combat+Virtual/@38.7743358,-9.1580198,19z/data=!4m2!3m1!1s0x0000000000000000:0xeff552e0037324fd" target="blank"><i class="fa fa-car"></i></a></h5>'+
                             '</div>';
 
         var infowindowCVC = new google.maps.InfoWindow({
@@ -83,6 +84,7 @@
                             '<div id="siteNotice">'+
                             '</div>'+
                             '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/POWER-BB-1400090706869972/" target="blank">Power BB - Metralha</a></h5>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.google.pt/maps/place/Setubal/@38.5241688,-8.934314,12z/data=!3m1!4b1!4m2!3m1!1s0x0d1942feab027435:0x9ff23f769bb5aa54" target="blank"><i class="fa fa-car"></i></a></h5>'+
                             '</div>';
 
         var infowindowPBB = new google.maps.InfoWindow({
