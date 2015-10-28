@@ -55,6 +55,7 @@
 
         var combateVirtualCustom = {lat: 38.7742958, lng: -9.1575083};
         var powerBB = {lat: 38.5244000, lng: -8.8882000};
+        var softgun = {lat: 38.5599594, lng: -9.0441623};
 
         var map = new google.maps.Map(mapCanvas, mapOptions)
 
@@ -100,6 +101,28 @@
 
         powerBB.addListener('click', function() {
             infowindowPBB.open(map, powerBB);
+        });
+
+        var contentStringSoftgun = '<div id="content">'+
+                            '<div id="siteNotice">'+
+                            '</div>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/SoftgunTacticalStore" target="blank">Softgun</a></h5>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.google.pt/maps/place/R.+Manuel+de+Arriaga+1443,+2975-329+Q.ta+do+Conde/@38.5599594,-9.0441623,17z/data=!4m7!1m4!3m3!1s0xd1948ce9f415aff:0x316d4665609f4b60!2sR.+Manuel+de+Arriaga+1443,+2975-329+Q.ta+do+Conde!3b1!3m1!1s0xd1948ce9f415aff:0x316d4665609f4b60" target="blank"><i class="fa fa-car"></i></a></h5>'+
+                            '</div>';
+
+        var infowindowSoftgun = new google.maps.InfoWindow({
+            content: contentStringSoftgun
+        });
+
+        var softgun = new google.maps.Marker({
+            position: softgun,
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Softgun'
+        });
+
+        softgun.addListener('click', function() {
+            infowindowSoftgun.open(map, softgun);
         });
 
       }
