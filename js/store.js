@@ -84,7 +84,7 @@ var itensInCart=0;
             infowindowCVC.open(map, combateVirtualCustom);
         });
 
-        var contentGreen = '<div id="content">'+
+        var contentStringGreen = '<div id="content">'+
                             '<div id="siteNotice">'+
                             '</div>'+
                             '<h5 id="firstHeading" class="firstHeading"><a href="http://www.greenstrikes.pt" target="blank">GreenStrikes</a></h5>'+
