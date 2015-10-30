@@ -58,6 +58,7 @@ var itensInCart=0;
         var combateVirtualCustom = {lat: 38.7742958, lng: -9.1575083};
         var powerBB = {lat: 38.5244000, lng: -8.8882000};
         var softgun = {lat: 38.5599594, lng: -9.0441623};
+        var green = {lat: 38.7636152, lng: -9.1716941};
 
         var map = new google.maps.Map(mapCanvas, mapOptions)
 
@@ -82,6 +83,30 @@ var itensInCart=0;
         combateVirtualCustom.addListener('click', function() {
             infowindowCVC.open(map, combateVirtualCustom);
         });
+
+        var contentGreen = '<div id="content">'+
+                            '<div id="siteNotice">'+
+                            '</div>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="http://www.greenstrikes.pt" target="blank">GreenStrikes</a></h5>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.google.pt/maps/dir//38.7635957,-9.1717698/@38.7639283,-9.1722888,18.25z" target="blank"><i class="fa fa-car"></i></a></h5>'+
+                            '</div>';
+
+        var infowindowGreen = new google.maps.InfoWindow({
+            content: contentStringGreen
+        });
+
+        var green = new google.maps.Marker({
+            position: green,
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'GreenStrikes'
+        });
+
+        green.addListener('click', function() {
+            infowindowGreen.open(map, green);
+        });
+
+        }
 
         var contentStringPBB = '<div id="content">'+
                             '<div id="siteNotice">'+
@@ -129,5 +154,6 @@ var itensInCart=0;
 
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+
 
 })(jQuery); // End of use strict
