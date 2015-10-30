@@ -106,8 +106,6 @@ var itensInCart=0;
             infowindowGreen.open(map, green);
         });
 
-        }
-
         var contentStringPBB = '<div id="content">'+
                             '<div id="siteNotice">'+
                             '</div>'+
