@@ -47,11 +47,13 @@ var itensInCart=0;
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+
     function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
           center: new google.maps.LatLng(38.736946, -9.142685),
           zoom: 9,
+          scrollwheel: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
 

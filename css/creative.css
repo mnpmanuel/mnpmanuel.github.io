@@ -897,3 +897,7 @@ img::-moz-selection {
     width: 500px;
     height: 400px;
 }
+
+.map iframe{
+    pointer-events: none;
+}
