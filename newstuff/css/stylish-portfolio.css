@@ -286,6 +286,11 @@ hr.small {
 .call-to-action {
     padding: 50px 0;
     background-color: #556b2f;
+    background: url(../img/greenstrikes.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .call-to-action .btn {
