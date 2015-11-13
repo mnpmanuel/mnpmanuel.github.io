@@ -1,0 +1,373 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #33401C;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #848C76;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #848C76;
+    background-color: #848C76;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #848C76; #33401C
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #848C76;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #848C76;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #33401C;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    background: url(../img/maxresdefault.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+    background-color: #556b2f;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    background: url(../img/ferramentas.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(51,64,28,.5);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+    background-color: #556b2f;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 0;
+}
+
+/* Stuff */
+
+.scrolloff {
+        pointer-events: none;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #18bc9c;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
