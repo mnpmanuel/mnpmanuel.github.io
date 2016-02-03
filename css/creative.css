@@ -817,7 +817,7 @@ img::-moz-selection {
     font-family: Merriweather,'Montserrat',Arial,sans-serif;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/partners/partner1.png) no-repeat center center;
+    background: url(../img/partners/partner1.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -903,7 +903,7 @@ img::-moz-selection {
 .banner2 {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/partners/partner1.png) no-repeat center center;
+    background: url(../img/partners/partner1.jpg) no-repeat center center;
     background-size: cover;
 }
 
