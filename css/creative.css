@@ -49,7 +49,7 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .bg-primary {
@@ -811,6 +811,38 @@ img::-moz-selection {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.introPartner-header {
+    /*padding-top: 50px;*/ /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 50px;*/
+    font-family: Merriweather,'Montserrat',Arial,sans-serif;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/partners/partner1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.introPartner-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.introPartner-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.introPartner-divider {
+    width: 400px;
+    border-top: 1px solid #81613E;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.introPartner-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
@@ -868,6 +900,63 @@ img::-moz-selection {
     }
 }
 
+.banner2 {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/partners/partner1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.banner2 h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner2 ul {
+    margin-bottom: 0;
+}
+
+.banner2-social-buttons {
+    float: right;
+    margin: auto;
+    margin-top: 0;
+    padding: 50px;
+}
+
+.banner2 p {
+    margin-top: 15px;
+}
+
+.banner2 a {
+    color:#c19a6b;
+}
+
+@media(max-width:1199px) {
+    ul.banner2-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner2 h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner2-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner2-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -900,4 +989,101 @@ img::-moz-selection {
 
 .map iframe{
     pointer-events: none;
+}
+
+.CSSTableGenerator {
+    margin:0px;padding:0px;
+    margin-top: 8%;
+    width:100%;
+    box-shadow: 10px 10px 5px #888888;
+    border:1px solid #81613E;
+    
+    -moz-border-radius-bottomleft:13px;
+    -webkit-border-bottom-left-radius:13px;
+    border-bottom-left-radius:13px;
+    
+    -moz-border-radius-bottomright:13px;
+    -webkit-border-bottom-right-radius:13px;
+    border-bottom-right-radius:13px;
+    
+    -moz-border-radius-topright:13px;
+    -webkit-border-top-right-radius:13px;
+    border-top-right-radius:13px;
+    
+    -moz-border-radius-topleft:13px;
+    -webkit-border-top-left-radius:13px;
+    border-top-left-radius:13px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+    -moz-border-radius-bottomright:13px;
+    -webkit-border-bottom-right-radius:13px;
+    border-bottom-right-radius:13px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+    -moz-border-radius-topleft:13px;
+    -webkit-border-top-left-radius:13px;
+    border-top-left-radius:13px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+    -moz-border-radius-topright:13px;
+    -webkit-border-top-right-radius:13px;
+    border-top-right-radius:13px;
+}.CSSTableGenerator tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:13px;
+    -webkit-border-bottom-left-radius:13px;
+    border-bottom-left-radius:13px;
+}.CSSTableGenerator tr:hover td{
+    
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#c19a6b; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+    vertical-align:middle;
+    
+    
+    border:1px solid #81613E;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:7px;
+    font-size:18px;
+    font-family:'Montserrat', Arial, sans-serif;
+    /*font-weight:bold;*/
+    color:#4c4c4c;
+}.CSSTableGenerator tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+        background:-o-linear-gradient(bottom, #81613E 5%, #81613E 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #81613E), color-stop(1, #81613E) );
+    background:-moz-linear-gradient( center top, #81613E 5%, #81613E 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#81613E", endColorstr="#81613E");  background: -o-linear-gradient(top,#81613E,81613E);
+
+    background-color:#81613E;
+    border:0px solid #81613E;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:'Montserrat', Arial, sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #81613E 5%, #81613E 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #81613E), color-stop(1, #81613E) );
+    background:-moz-linear-gradient( center top, #81613E 5%, #81613E 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#81613E", endColorstr="#81613E");  background: -o-linear-gradient(top,#81613E,81613E);
+
+    background-color:#81613E;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
 }
