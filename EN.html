@@ -201,6 +201,7 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
+            <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
@@ -218,13 +219,14 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box">
+                    <a href="#hitSensor" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
                                     Hit Sensor
                                 </div>
+                                <i class="fa fa-3x fa-search-plus text-secondary"></i>
                             </div>
                         </div>
                     </a>
@@ -336,6 +338,34 @@
         </div>
     </section>
 
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" style="margin-top: 15px;">Find Us At</h2>
+                    <ul class="list">
+                        <li><p><a href="https://www.facebook.com/combatevirtualcustomairsoft" target="blank">Combate Virtual Custom</a></p></li>
+                        <li><p><a href="http://www.greenstrikes.pt" target="blank">GreenStrikes</a></p></li>
+                        <li><p><a href="https://www.facebook.com/POWER-BB-1400090706869972/" target="blank">Power BB - Metralha</a></p></li>
+                        <li><p><a href="https://www.facebook.com/SoftgunTacticalStore" target="blank">Softgun</a></p></li> 
+                    </ul>
+                    <p>Want to be a part of this list? Send us an <a href="mailto:geral@engineeredairsoft.com">email</a>!</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <!--<img class="img-responsive center-img" src="img/portfolio/4.png" alt="">-->
+                    <div class="img-responsive center-img" id="map"></div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
     <aside class="bg-primary" id="contact">
         <div class="container text-center">
             <div class="call-to-action">
@@ -354,12 +384,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="UE6A4QCWVSTU6">
                         <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
                         <img alt="" border="0" src="https://www.paypalobjects.com/pt_PT/i/scr/pixel.gif" width="1" height="1">
-                    </form>
+                    </form>-->
+                    <ul class="list-inline social-buttons">
+                        <a href="#termosEcondicoes" data-toggle="modal" class="btn btn-terms"><i class="fa fa-file-text-o"> Terms and Conditions</i></a>
+                    </ul> 
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -578,8 +611,11 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/angular.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
+    <script src="js/store.js"></script>
     <script src="js/creative.js"></script>
 
 </body>
