@@ -67,7 +67,7 @@ var itensInCart=0;
         var contentStringCVC = '<div id="content">'+
                             '<div id="siteNotice">'+
                             '</div>'+
-                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/combatevirtualcustomairsoft" target="blank">Combate Virtual Custom</a></h5>'+
+                            '<h5 id="firstHeading" class="firstHeading"><a href="https://www.facebook.com/combatevirtualcustomairsoft" target="blank">Combate Virtual</a></h5>'+
                             '<h5 id="firstHeading" class="firstHeading"><a href="https://www.google.pt/maps/place/Combat+Virtual/@38.7743358,-9.1580198,19z/data=!4m2!3m1!1s0x0000000000000000:0xeff552e0037324fd" target="blank"><i class="fa fa-car"></i></a></h5>'+
                             '</div>';
 
@@ -79,14 +79,14 @@ var itensInCart=0;
             position: combateVirtualCustom,
             map: map,
             animation: google.maps.Animation.DROP,
-            title: 'Combate Virtual Custom'
+            title: 'Combate Virtual'
         });
 
         combateVirtualCustom.addListener('click', function() {
             infowindowCVC.open(map, combateVirtualCustom);
         });
 
-        var contentStringGreen = '<div id="content">'+
+        /*var contentStringGreen = '<div id="content">'+
                             '<div id="siteNotice">'+
                             '</div>'+
                             '<h5 id="firstHeading" class="firstHeading"><a href="http://www.greenstrikes.pt" target="blank">GreenStrikes</a></h5>'+
@@ -106,7 +106,7 @@ var itensInCart=0;
 
         green.addListener('click', function() {
             infowindowGreen.open(map, green);
-        });
+        });*/
 
         var contentStringPBB = '<div id="content">'+
                             '<div id="siteNotice">'+
