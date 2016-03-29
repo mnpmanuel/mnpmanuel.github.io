@@ -459,6 +459,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #c19a6b;
     color: #fff;
     background-color: #c19a6b;
+    font-family: 'Open Sans','Montserrat',Arial,sans-serif;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
