@@ -56,6 +56,16 @@ p {
     /*background-color: #81613E;*/
     background-color: #81613E;
 }
+.bg-primary a {
+    color: #000000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.bg-primary a:hover,
+.bg-primary a:focus {
+    color: #eb3812;
+}
 
 .bg-tan {
     background-color: #C19A6B;
