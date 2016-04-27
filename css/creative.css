@@ -172,6 +172,7 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #81613E;
+        margin-bottom: 0;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
