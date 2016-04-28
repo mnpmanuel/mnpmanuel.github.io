@@ -180,6 +180,16 @@ fieldset[disabled] .btn-xl.active {
     color: #fe8524;
 }
 
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -457,7 +467,7 @@ section h3.section-subheading {
 }
 
 section.clients .section-heading {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 40px;
 }
 
@@ -741,7 +751,10 @@ body {
 }
 
 .li {
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
+  -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
 
 .timestamp {
@@ -759,7 +772,10 @@ body {
   justify-content: center;
   border-top: 2px solid #D6DCE0;
   position: relative;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
+  -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
 .status h4 {
   font-weight: 600;
@@ -774,7 +790,10 @@ body {
   position: absolute;
   top: -15px;
   left: 42%;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
+  -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
 
 .li.complete .status {
@@ -783,7 +802,10 @@ body {
 .li.complete .status:before {
   background-color: #fe8524;
   border: none;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
+  -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
 .li.complete .status h4 {
   color: #fe8524;
@@ -796,7 +818,10 @@ body {
   }
 
   .li {
-    transition: all 200ms ease-in;
+    /*transition: all 200ms ease-in;*/
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
     display: flex;
     width: inherit;
   }
@@ -808,7 +833,10 @@ body {
   .status:before {
     left: -8%;
     top: 30%;
-    transition: all 200ms ease-in;
+    /*transition: all 200ms ease-in;*/
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
   }
 }
 
@@ -820,4 +848,22 @@ body {
 
 #credits {
     margin-top: 5%;
+}
+
+#map {
+    width: 200px;
+    height: 120px;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+    background-image: url(../img/machineshop.jpg);
+    text-shadow: 0 0 2px #000;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+    text-shadow: 0 0 0px #000;
 }
